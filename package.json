@@ -1,0 +1,30 @@
+{
+  "name": "react-mobx-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "custom-react-scripts": "0.2.1",
+    "mobx": "^3.5.1",
+    "mobx-react": "^4.4.1",
+    "moment": "^2.20.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run": "^1.7.1",
+    "gulp-template": "^5.0.0",
+    "run-sequence": "^2.2.1",
+    "vinyl-ftp": "^0.6.1"
+  }
+}
