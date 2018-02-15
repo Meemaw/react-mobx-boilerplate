@@ -21,7 +21,7 @@ function renderApp() {
 renderApp()
 
 if (module.hot) {
-  module.hot.accept(['./components/App'], () => {
+  module.hot.accept(['./components/App.jsx'], () => {
     renderApp()
   })
 }
