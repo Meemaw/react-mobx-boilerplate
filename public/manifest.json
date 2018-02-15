@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Mobx Boilerplate",
+  "name": "React Mobx Boilerplate",
   "icons": [
     {
       "src": "favicon.ico",
