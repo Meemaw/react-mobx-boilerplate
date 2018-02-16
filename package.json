@@ -12,13 +12,9 @@
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
   "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint-config-prettier": "^2.9.0",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
@@ -26,7 +22,16 @@
     "gulp-rename": "^1.2.2",
     "gulp-run": "^1.7.1",
     "gulp-template": "^5.0.0",
+    "jest": "^22.3.0",
+    "prettier": "^1.10.2",
     "run-sequence": "^2.2.1",
     "vinyl-ftp": "^0.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "lint-prettier": "prettier --config .prettierrc -l 'src/**/*.js*' || (echo \nThese files are not formatted correctly && false)",
+    "prettier": "prettier --config .prettierrc --write 'src/**/*.js*'"
   }
 }
